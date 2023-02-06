@@ -1,2 +1,3 @@
 # ignore the file that contains the google API key:
 key_google_api.txt
+*.csv
