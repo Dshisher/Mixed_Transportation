@@ -18,8 +18,6 @@ def download_data(num_limit=500):
     :return df: Dataframe containing the scrapped data.
     """
 
-    check_if_data_cache_exists()
-
     if num_limit == 0:
         path_to_data = 'https://data.gov.il/api/3/action/datastore_search?resource_id=e873e6a2-66c1-494f-a677-f5e77348edb0'
     else:
