@@ -34,6 +34,7 @@ def download_data(num_limit=500):
 
 def check_if_data_cache_exists(num_limit=0, force_re_downloading=False):
     """
+    If data already exists locally then read local file.
 
     :param num_limit: Number of data values to fetch from the website.
     :param force_re_downloading:
